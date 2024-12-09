@@ -1,0 +1,19 @@
+[project]
+name = "projet_github"
+version = "0.1.0"
+description = "Simulation concession auto"
+authors = [
+    {name = "Thomas SALLE", email = "thomas.salle@estaca.eu"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.pdm]
+distribution = true
