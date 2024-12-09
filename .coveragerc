@@ -1,0 +1,9 @@
+[coverage:run]
+branch = True
+source =
+    src/projet_github  # Définissez ici le répertoire source de votre code
+
+[coverage:report]
+omit =
+    tests/*  # Exclure tous les fichiers dans le répertoire "tests"
+    */test_*.py  # Exclure tous les fichiers qui commencent par test_
