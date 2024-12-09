@@ -7,7 +7,7 @@ import os
 # Ajouter 'src' au sys.path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
-from projet_github import Voiture
+
 from src.projet_github import Voiture  
 
 
